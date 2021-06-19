@@ -85,6 +85,9 @@
 
 @media (min-width: 48rem){
     .container{
+        display: flex;
+        align-items: center;  
+        justify-content: center;  
         height: 100vh;
     }
 
@@ -93,7 +96,6 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 1.8rem;
-        margin: 0 auto;
         
         & > * {
             padding: 2rem 1.48rem;
